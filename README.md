@@ -1,11 +1,16 @@
 <html>
 	<head>
-		<meta charse"utf-8>
-		<title> test </title>
-		
+		<title> PAGE TESTE </title>
 	</head>
-	<body style="background-color:#3867d6">
-	<h1	style="padding-top:30%;padding-bottom:20%; text-align:center;"> site de teste de GitHub <h1>
-	
-	</body>
+		<FRAMESET cols="250,*">
+  <FRAME src=connect.html name=connect>
+	<FRAMESET ROWS="25%,75%">
+		<FRAME src=entete.html name=entete>
+		<FRAME src=principale.html name=principale>
+	</FRAMESET> 
+  <NOFRAME>
+    <BODY>
+    </BODY>
+  </NOFRAME>
+  </FRAMESET>
 </html>
